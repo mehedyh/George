@@ -1,0 +1,95 @@
+* {
+    font-family: 'Gotham';
+    margin: 0;
+    padding: 0;
+}
+
+.t-item {
+    display: table;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+}
+
+.t-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bg-black {
+    background-color: #1A1A1A;
+}
+
+.txt1 {
+    color: #E84029;
+    font-weight: 300;
+}
+
+.txt2 {
+    width: 100%;
+}
+
+.splash1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 100;
+    height: 250px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec3 {
+    background-image: linear-gradient(to bottom, rgba(33, 33, 34, 0.52), rgba(30, 30, 30, 0.73)), url(/images/iStock-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt3 {
+    color: rgba(255, 255, 255, 0.762);
+    font-weight: 300;
+}
+
+.lastSec {
+    background-color: #1E2625;
+}
+
+.hr {
+    border: 1.2px solid #0099C6;
+}
+
+.txt4 {
+    color: #0099C6;
+    font-size: 5vw;
+}
+
+.txt5 {
+    color: #0099C6;
+    font-size: 3vh;
+}
+
+.strokes {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    top: -150px;
+    left: 40%;
+    z-index: 1;
+}
+
+.mtop {
+    margin-top: -50px;
+}
